@@ -41,7 +41,7 @@ lib/
 ```
 
 ## Screenshots
-### Load Screen
+### Loading Screen
 ![Loading](screenshots/start.png)
 ### Home Screen
 ![Home](screenshots/Home.png)
