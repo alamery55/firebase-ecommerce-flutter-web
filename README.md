@@ -44,7 +44,7 @@ lib/
 ### Loading Screen
 ![Loading](screenshots/start.png)
 ### Home Screen
-![Home](screenshots/Home.png)
+![Loading](screenshots/Home.png)
 ### Product Screen
 ![Categories](screenshots/categorys.png)
 ### Detailes Screen
