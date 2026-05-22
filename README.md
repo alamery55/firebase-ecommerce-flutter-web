@@ -43,13 +43,13 @@ lib/
 ## Screenshots
 ### Load Screen
 ![Loading](screenshots/start.png)
-### Home
+### Home Screen
 ![Home](screenshots/Home.png)
-### Product 
+### Product Screen
 ![Categories](screenshots/categorys.png)
-### Detailes
+### Detailes Screen
 ![detailes](screenshots/detailes.png)
-###Favorite
+###Favorite Screen
 ![Favorite](screenshots/favorit.png)
 ## Firebase Features
 * Dynamic product fetching
