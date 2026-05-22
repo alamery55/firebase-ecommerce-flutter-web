@@ -1,0 +1,191 @@
+import '../models/product.dart';
+
+/// Realistic store product data for the e-commerce app.
+/// Uses picsum.photos with descriptive seeds for placeholder images.
+final List<Product> dummyProducts = [
+  // ─── Electronics ──────────────────────────────────────────
+  Product(
+    id: 'e1',
+    name: 'Sony WH-1000XM5',
+    price: 349.99,
+    imageUrl: 'https://picsum.photos/seed/sonyheadphones/400/400',
+    category: 'Electronics',
+    description: 'Industry-leading noise cancelling wireless headphones.',
+  ),
+  Product(
+    id: 'e2',
+    name: 'AirPods Pro 2',
+    price: 249.99,
+    imageUrl: 'https://picsum.photos/seed/airpods/400/400',
+    category: 'Electronics',
+    description: 'Active noise cancellation earbuds with spatial audio.',
+  ),
+  Product(
+    id: 'e3',
+    name: 'JBL Flip 6 Speaker',
+    price: 129.99,
+    imageUrl: 'https://picsum.photos/seed/jblspeaker/400/400',
+    category: 'Electronics',
+    description: 'Portable waterproof Bluetooth speaker with deep bass.',
+  ),
+  Product(
+    id: 'e4',
+    name: 'Samsung Galaxy Buds',
+    price: 149.99,
+    imageUrl: 'https://picsum.photos/seed/galaxybuds/400/400',
+    category: 'Electronics',
+    description: 'True wireless earbuds with ambient sound mode.',
+  ),
+  Product(
+    id: 'e5',
+    name: 'Bose QuietComfort 45',
+    price: 279.99,
+    imageUrl: 'https://picsum.photos/seed/boseheadphones/400/400',
+    category: 'Electronics',
+    description: 'Premium noise cancelling over-ear headphones.',
+  ),
+
+  // ─── Home & Furniture ─────────────────────────────────────
+  Product(
+    id: 'h1',
+    name: 'Modern Velvet Sofa',
+    price: 899.99,
+    imageUrl: 'https://picsum.photos/seed/velvetsofa/400/400',
+    category: 'Home',
+    description: 'Luxurious 3-seater velvet sofa in emerald green.',
+  ),
+  Product(
+    id: 'h2',
+    name: 'Ergonomic Office Chair',
+    price: 449.99,
+    imageUrl: 'https://picsum.photos/seed/officechair/400/400',
+    category: 'Home',
+    description: 'Adjustable lumbar support mesh office chair.',
+  ),
+  Product(
+    id: 'h3',
+    name: 'Minimalist Coffee Table',
+    price: 259.99,
+    imageUrl: 'https://picsum.photos/seed/coffeetable/400/400',
+    category: 'Home',
+    description: 'Scandinavian oak wood coffee table with storage.',
+  ),
+  Product(
+    id: 'h4',
+    name: 'Ceramic Table Lamp',
+    price: 79.99,
+    imageUrl: 'https://picsum.photos/seed/tablelamp/400/400',
+    category: 'Home',
+    description: 'Handcrafted ceramic lamp with linen shade.',
+  ),
+  Product(
+    id: 'h5',
+    name: 'Woven Wall Art',
+    price: 64.99,
+    imageUrl: 'https://picsum.photos/seed/wallart/400/400',
+    category: 'Home',
+    description: 'Bohemian macramé wall hanging decor.',
+  ),
+
+  // ─── Fashion & Clothing ───────────────────────────────────
+  Product(
+    id: 'f1',
+    name: 'Oversized Linen Blazer',
+    price: 189.99,
+    imageUrl: 'https://picsum.photos/seed/linenblazer/400/400',
+    category: 'Fashion',
+    description: 'Relaxed-fit linen blazer in sand beige.',
+  ),
+  Product(
+    id: 'f2',
+    name: 'Cashmere Knit Sweater',
+    price: 159.99,
+    imageUrl: 'https://picsum.photos/seed/cashmeresweater/400/400',
+    category: 'Fashion',
+    description: 'Soft cashmere blend crewneck sweater.',
+  ),
+  Product(
+    id: 'f3',
+    name: 'Leather Chelsea Boots',
+    price: 219.99,
+    imageUrl: 'https://picsum.photos/seed/chelseaboots/400/400',
+    category: 'Fashion',
+    description: 'Classic Italian leather Chelsea boots.',
+  ),
+  Product(
+    id: 'f4',
+    name: 'Denim Jacket',
+    price: 129.99,
+    imageUrl: 'https://picsum.photos/seed/denimjacket/400/400',
+    category: 'Fashion',
+    description: 'Classic wash denim jacket with brass buttons.',
+  ),
+  Product(
+    id: 'f5',
+    name: 'Wide Leg Trousers',
+    price: 89.99,
+    imageUrl: 'https://picsum.photos/seed/widetrousers/400/400',
+    category: 'Fashion',
+    description: 'High-waisted wide leg trousers in charcoal.',
+  ),
+
+  // ─── Sports & Fitness ────────────────────────────────────
+  Product(
+    id: 's1',
+    name: 'Nike Air Max 270',
+    price: 159.99,
+    imageUrl: 'https://picsum.photos/seed/nikeairmax/400/400',
+    category: 'Sports',
+    description: 'Iconic Air Max lifestyle running shoes.',
+  ),
+  Product(
+    id: 's2',
+    name: 'Yoga Mat Premium',
+    price: 68.99,
+    imageUrl: 'https://picsum.photos/seed/premiumyogamat/400/400',
+    category: 'Sports',
+    description: 'Extra thick non-slip natural rubber yoga mat.',
+  ),
+  Product(
+    id: 's3',
+    name: 'Adjustable Dumbbells',
+    price: 299.99,
+    imageUrl: 'https://picsum.photos/seed/dumbbells/400/400',
+    category: 'Sports',
+    description: 'Set of adjustable dumbbells 5–50 lbs.',
+  ),
+  Product(
+    id: 's4',
+    name: 'Hydro Flask 32oz',
+    price: 44.99,
+    imageUrl: 'https://picsum.photos/seed/hydroflask/400/400',
+    category: 'Sports',
+    description: 'Insulated stainless steel water bottle.',
+  ),
+
+  // ─── Beauty & Skincare ───────────────────────────────────
+  Product(
+    id: 'b1',
+    name: 'Vitamin C Serum',
+    price: 38.99,
+    imageUrl: 'https://picsum.photos/seed/vitaminc/400/400',
+    category: 'Beauty',
+    description: 'Brightening vitamin C face serum with hyaluronic acid.',
+  ),
+  Product(
+    id: 'b2',
+    name: 'Luxury Perfume Set',
+    price: 124.99,
+    imageUrl: 'https://picsum.photos/seed/luxuryperfume/400/400',
+    category: 'Beauty',
+    description: 'Collection of 4 designer mini perfumes.',
+  ),
+  Product(
+    id: 'b3',
+    name: 'Jade Roller & Gua Sha',
+    price: 29.99,
+    imageUrl: 'https://picsum.photos/seed/jaderoller/400/400',
+    category: 'Beauty',
+    description: 'Natural jade facial massage tools set.',
+  ),
+];
