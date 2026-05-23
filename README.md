@@ -73,6 +73,6 @@ The project is optimized for:
 * Netlify
 * Flutter Web Production Build
 ## Run The Project
-
-## flutter pub get
-## flutter build web
+```
+flutter pub get
+flutter build web
