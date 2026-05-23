@@ -74,9 +74,5 @@ The project is optimized for:
 * Flutter Web Production Build
 ## Run The Project
 
-flutter pub get
-flutter build web
-```
-
-
-## dev zakaria alamrri 
+## flutter pub get
+## flutter build web
